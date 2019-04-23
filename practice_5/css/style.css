@@ -1,4 +1,4 @@
-@import url(reset.css);
+
 .header {
 	background-color: orange;
 	height: 80px;
@@ -7,6 +7,7 @@
 	text-align: left;
 	font-family: "helvetica";
 	line-height: 60px;
+	padding-left: 10px;
 }
 .one, .two, .three {
 	height: 450px;
@@ -20,9 +21,11 @@
 	vertical-align: top;
 	margin-left: 50px;
 	margin-top: 30px;
+	box-sizing: border-box;
+	padding: 10px;
 }
 h1 {
-	font-size: 30px;
+	font-size: 35px;
 }
 .footer {
 	background-color: orange;
@@ -33,4 +36,5 @@ h1 {
 	font-family: "helvetica";
 	line-height: 60px;
 	margin-top: 30px;
+	padding-left: 10px;
 }
