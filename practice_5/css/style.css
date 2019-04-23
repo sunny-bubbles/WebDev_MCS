@@ -1,0 +1,36 @@
+@import url(reset.css);
+.header {
+	background-color: orange;
+	height: 80px;
+	width: 950px;
+	color: white;
+	text-align: left;
+	font-family: "helvetica";
+	line-height: 60px;
+}
+.one, .two, .three {
+	height: 450px;
+	width: 250px;
+	display: inline-block;
+	border-width: 2px;
+	border-style: solid;
+	border-color: grey;
+	border-radius: 3%;
+	font-family: "helvetica";
+	vertical-align: top;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+h1 {
+	font-size: 30px;
+}
+.footer {
+	background-color: orange;
+	height: 80px;
+	width: 950px;
+	color: white;
+	text-align: left;
+	font-family: "helvetica";
+	line-height: 60px;
+	margin-top: 30px;
+}
