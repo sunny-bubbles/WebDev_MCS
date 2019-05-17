@@ -1,0 +1,57 @@
+@import url(reset.css);
+body {
+	background-color: black;
+}
+header {
+	height: 50px;
+	background-color: #853DFF;
+	color: white;
+}
+.weekendplans {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	padding: 10px;
+}
+.timeforfun {
+	background-color: #0B0D22;
+	text-align: center;
+	background-size: cover;
+	
+}
+.whatwewant {
+	height: 150px;
+	width: 600px;
+	background-color: grey;
+	border: 2px solid red;
+	border-radius: 10px;
+	margin: auto;
+	padding: 5px;
+
+}
+.itemcontainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-content: space-between;
+	align-items: center;
+	background-color: black;
+}
+.myfriends {
+	height: 150px;
+	width: 600px;
+	background-color: grey;
+	border: 2px solid red;
+	border-radius: 10px;
+	margin: auto;
+	padding: 5px;
+}
+
+footer {
+	height: 50px;
+	background-color: #853DFF;
+	color: white;
+	padding: 25px;
+}
